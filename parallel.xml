@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="20" parallel="tests" name="Suite">
-  <test thread-count="20" parallel="classes" name="Test">
+<suite thread-count="3" parallel="tests" name="Suite">
+  <test thread-count="3" parallel="classes" name="Test">
     <classes>
-      <class name="com.lambdatest.TestNGTodo1"/>
-      <class name="com.lambdatest.TestNGTodo2"/>
-      <class name="com.lambdatest.TestNGTodo3"/>
+<!--      <class name="com.lambdatest.TestNGTodo1"/>-->
+      <class name="com.lambdatest.HerokuAlertAutomate"/>
+      <class name="com.lambdatest.HerokuLoginAutomate"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
